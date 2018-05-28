@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo"
+    tools:context="com.example.camilo.zas.MainActivity">
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="ZAS CHOLITA"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        android:background="#ff0828"
+        android:textColor="#ffff"/>
+
+    <Button
+        android:id="@+id/traducir"
+        android:layout_marginTop="350dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TRADUCCION"
+        android:onClick="traducir"
+        android:background="#ff0828"
+        android:textColor="#ffff"
+        android:textSize="30sp"
+        />
+    <Button
+        android:id="@+id/acerca"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+            android:text="ACERCA"
+        android:onClick="acerca"
+        android:background="#ff0828"
+        android:textColor="#ffff"
+        android:textSize="30sp"
+        />
+
+</LinearLayout>
